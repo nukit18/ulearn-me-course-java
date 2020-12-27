@@ -6,6 +6,7 @@ import java.io.InputStream;
 import java.io.ObjectInputStream;
 
 public class Task03Main {
+
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         System.out.println(deserialize(new FileInputStream("task03/src/main/resources/example1.bin")));
     }
